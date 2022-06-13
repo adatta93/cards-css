@@ -1,0 +1,44 @@
+http://codepen.io/andymerskin/pen/XNMWvQ
+http://codepen.io/drehimself/pen/QNXpyp
+https://codepen.io/alvaromontoro/pen/ebPEWb - Card 1
+https://codepen.io/manojsilag/pen/YBOOmB - Card 2
+https://codepen.io/ainalem/pen/xJydpe - Card 3
+https://codepen.io/yancy/pen/gBLLxz - Card 4
+https://codepen.io/kjawhar15/pen/zLBaPj
+https://codepen.io/BeanBaag/pen/dzyGpM
+https://codepen.io/dtab428/pen/bRwMeq
+https://codepen.io/avstorm/pen/ERLpLy
+https://codepen.io/JavaScriptJunkie/pen/jvRGZy - Card 5
+
+futuristic cards
+
+url(https://static-cse.canva.com/_next/static/assets/wave.2881x801.e3004027281d91aea8440556fa84fbfd.png)
+
+.google-card {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-radius: 8px;
+	background-color: #fff;
+	margin-bottom: 8px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 200ms cubic-bezier(0.4,0.0,0.2,1);
+    transition: box-shadow 200ms cubic-bezier(0.4,0.0,0.2,1);
+}
+.google-card:hover {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+//IDFC
+tax-adatta93Amrtr#345
+// Sov Gold Bond
+gold-1001332094
+
+var firebaseConfig = {
+    apiKey: "AIzaSyBZ-hSYJ4xPA9SYou6kPXzFNpwMJObL-rg",
+    authDomain: "kppsamiti.firebaseapp.com",
+    databaseURL: "https://kppsamiti.firebaseio.com",
+    projectId: "kppsamiti",
+    storageBucket: "kppsamiti.appspot.com",
+    messagingSenderId: "408741229360",
+    appId: "1:408741229360:web:607a0aa36ba90a386d0ef5",
+    measurementId: "G-GCK9W3MJ0Q"
+  };

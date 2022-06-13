@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Card 6</title>
+  <style>
+  * {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	  font-family: sans-serif;
+  }
+  body {
+	background-color: rgb(236, 236, 236);
+	max-width: 1200px;
+    margin: 50px auto;
+  }
+  .row {
+	display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  [class*="col-"] {
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .col-md-4 {
+	flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .streaming-card-container {
+	float: left;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .streaming-outer {
+	width: 47%;
+	float: left;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+	text-align: center;
+	height: 60px;
+	margin: 0 10px 10px 0;
+	transition: .3s;
+  }
+  .streaming-outer:hover {
+    box-shadow: 0 2px 20px 0 #829fea;
+ }
+  .streaming-outer .streaming-icon {
+    float: left;
+    width: 65%;
+    padding: 10px 15px;
+    height: 100%;
+    min-width: 100px;
+  }
+  .streaming-outer .streaming-icon img, .item-outer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .streaming-outer .streaming-price {
+    min-width: 55px;
+    float: right;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 12px;
+  }
+  .streaming-outer .streaming-price p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #02064c;
+    line-height: 14px;
+  }
+  
+  .item-outer {
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: .3s;
+  }
+  .item-outer:hover {
+    box-shadow: 0 2px 9px 0 #829fea;
+    transition: .3s;
+  }
+  .item-outer .list-img {
+    position: relative;
+    height: 195px;
+    width: 130px;
+  }
+  .item-outer .info-inner {
+    padding: 10px 10px 10px 5px;
+    float: left;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .info-inner-content {
+	display: flex;
+	justify-content: space-between;
+	color: #02064c;
+	width: 100%;
+  }
+  .info-movie-name {
+	text-overflow: ellipsis;
+	font-weight: bolder;
+	font-size: 20px;
+    line-height: 23px;
+	letter-spacing: .25px;
+  }
+  .info-movie-rating {
+	font-size: 22px;
+    vertical-align: middle;
+	line-height: 1.25;
+    letter-spacing: .25px;
+	padding-right: 10px;
+  }
+  .info-year-genre {
+	color: #969393;
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+  .info-summary {
+	overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+	text-overflow: ellipsis;
+    font-size: 16px;
+	line-height: 1.4;
+  }
+  </style>
+</head>
+<body>
+	<div class="row">
+	<div class="col-md-4">
+		<div class="streaming-card-container">
+			<div class="streaming-outer">
+				<a href="https://www.friendspire.com/movies/5ef71e819fe79d252752c3eb" target="_blank">
+					<div class="streaming-icon">
+						<img alt="logo" src="prime-video.png">
+					</div>
+					<div class="streaming-price">
+						<p>Stream</p>
+						<p></p>
+					</div>
+				</a>
+			</div>
+			<div class="streaming-outer">
+				<a href="https://www.friendspire.com/movies/5ef71e819fe79d252752c3eb" target="_blank">
+					<div class="streaming-icon">
+						<img alt="logo" src="youtube.png">
+					</div>
+					<div class="streaming-price">
+						<p>INR</p>
+						<p>150</p>
+					</div>
+				</a>
+			</div>
+			<div class="streaming-outer">
+				<a href="https://www.friendspire.com/movies/5ef71e819fe79d252752c3eb" target="_blank">
+					<div class="streaming-icon">
+						<img alt="logo" src="netflix.png">
+					</div>
+					<div class="streaming-price">
+						<p>Stream</p>
+						<p></p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12 col-lg-6">
+			<div class="item-outer">
+				<a href="https://www.friendspire.com/movies/5f477f9eb13d641a40f48587">
+					<div class="row">
+						<div class="col-md-2 col-lg-3 col-3">
+							<div class="list-img">
+								<img alt="image" class="img img-fluid" src="enola-holmes.jpg">
+							</div>
+						</div>
+						<div class="col-md-10 col-lg-9 col-9">
+							<div class="info-inner">
+								<div class="info-inner-content">
+									<div class="info-movie-name">
+										Enola Holmes
+									</div>
+									<div class="info-movie-rating">
+										7.4
+									</div>
+								</div>
+								<div class="info-inner-content">
+									<p class="info-year-genre">
+										2020 | Crime, Mystery, Adventure
+									</p>
+								</div>
+								<div class="info-inner-content">
+									<p class="info-summary">
+										 While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-12 col-lg-6">
+			<div class="item-outer">
+				<a href="https://www.friendspire.com/movies/5b920e15c1c0192b8d3e22db">
+					<div class="row">
+						<div class="col-md-2 col-lg-3 col-3">
+							<div class="list-img">
+								<img alt="image" class="img img-fluid" src="inception.jpg">
+							</div>
+						</div>
+						<div class="col-md-10 col-lg-9 col-9">
+							<div class="info-inner">
+								<div class="info-inner-content">
+									<div class="info-movie-name">
+										Inception
+									</div>
+									<div class="info-movie-rating">
+										8.9
+									</div>
+								</div>
+								<div class="info-inner-content">
+									<p class="info-year-genre">
+										2010 | Action, Science Fiction, Adventure
+									</p>
+								</div>
+								<div class="info-inner-content">
+									<p class="info-summary">
+										  Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: "inception", the implantation of another person's idea into a target's subconscious.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
